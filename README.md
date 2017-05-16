@@ -14,4 +14,4 @@
    - replace that `.8` (or whatever number you settled on) with `noise(x, y)`
    - replace that `noise(...)`
    - comment out that `float size = ...` line and add a new line `float size = map(greyness, 0, 255, cellSize * scale, .5)`
-   - comment out the `ellipse(...)` line and add new lines: `textSize(size);` and `text(txt.charAt(currentLetter), x, y);`
+   - comment out the `ellipse(...)` line and add new lines: `textSize(cellSize * scale);` and `text(txt.charAt(currentLetter), xLoc, yLoc);`
