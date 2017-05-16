@@ -20,6 +20,7 @@ void settings() {
 void setup() {
   noLoop();
   img = loadImage("barry.jpg");
+  println(img.width + " x " + img.height);
   txtLength = txt.length();
 }
 
